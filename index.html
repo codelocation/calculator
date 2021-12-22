@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper2">
+            <div class="see">
+                ...
+            </div>
+    <!--некрасиво-->        <div class="wrapper">
+            <div class="blocks1">
+                <div class="block_a">
+                    <div class="elem" id='del' onclick="writeDel()">del</div>
+                    <div class="elem" id='/' onclick="writeSymbol('/')">/</div>
+                    <div class="elem" id='*' onclick="writeSymbol('*')">*</div>
+                </div>
+                <div class="block_a">
+                    <div class="elem" id='7' onclick="writeSymbol('7')">7</div>
+                    <div class="elem" id='8' onclick="writeSymbol('8')">8</div>
+                    <div class="elem" id='9' onclick="writeSymbol('9')">9</div>
+                </div>
+                <div class="block_a">
+                    <div class="elem" id='4' onclick="writeSymbol('4')">4</div>
+                    <div class="elem" id='5' onclick="writeSymbol('5')">5</div>
+                    <div class="elem" id='6' onclick="writeSymbol('6')">6</div>
+                </div>
+                <div class="block_a">
+                    <div class="elem" id='1' onclick="writeSymbol('1')">1</div>
+                    <div class="elem" id='2' onclick="writeSymbol('2')">2</div>
+                    <div class="elem" id='3' onclick="writeSymbol('3')">3</div>
+                </div>
+                <div class="block_b">
+                    <div class="elem" style="flex-basis: 64%;" id='0'
+                    onclick="writeSymbol('0')">0</div>
+                    <div class="elem" id='.' onclick="writeSymbol('.')">.</div>
+                </div>
+            </div>
+            <div class="blocks2">
+                <div class="elem" style="flex-basis: 15%;" id='-'
+                onclick="writeSymbol('-')">-</div>
+                <div class="elem" style="flex-basis: 35%;" id='+'
+                onclick="writeSymbol('+')">+</div>
+                <div class="elem" style="flex-basis: 35%" id='='
+                onclick="writeEnter()">=</div>
+            </div>
+        </div>
+        </div>
+
+        <script src="input.js"></script>
+    </body>
+</html>

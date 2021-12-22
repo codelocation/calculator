@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 100%;
  }
 
  .blocks1 {
@@ -105,14 +106,17 @@ body {
  @media screen and (max-width: 319px){
      .blocks1 {
          padding: 5px;
+         width: 70%;
      }
      .blocks2 {
          padding: 5px;
+         width: 20%;
      }
      .see {
          padding: 10px;
      }
      .wrapper2 {
          margin: 0;
+         width: 100vw;
      }
  }
